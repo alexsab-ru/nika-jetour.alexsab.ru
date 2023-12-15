@@ -3,8 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev --open --host",
+    "dev": "astro dev --open --host --config astro.local.config.mjs",
     "start": "astro dev --open --host",
+    "build_local": "astro build --config astro.local.config.mjs",
     "build": "astro build",
     "preview": "astro preview --open --host",
     "astro": "astro"
@@ -12,6 +13,7 @@
   "dependencies": {
     "@alexsab-ru/scripts": "^0.3.1",
     "@astrojs/alpinejs": "^0.3.1",
+    "@astrojs/mdx": "^2.0.1",
     "@astrojs/sitemap": "^3.0.3",
     "@astrojs/tailwind": "^5.0.3",
     "@types/alpinejs": "^3.13.5",

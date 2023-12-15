@@ -1,14 +1,14 @@
 [
     {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "name": "Ника Авто, Jetour",
+        "address": "г. Оренбург, Загородное шоссе, д. 13/4, стр.&nbsp;1",
+        "phone":  "8 (3532) 37-17-17",
+        "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
-            "zoom": 5,
-            "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+            "zoom": 15,
+            "balloon": "img/map.balloon.png",
+            "coords": [51.842883,55.159128],
+            "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=55.159131%2C51.842659&mode=routes&rtext=~51.842878%2C55.159173&z=17"
         }
     }
 ]
