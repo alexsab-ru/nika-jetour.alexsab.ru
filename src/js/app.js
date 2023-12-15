@@ -9,7 +9,7 @@ connectForms('https://alexsab.ru/lead/jetour/orenburg/', function() {
 
 grecaptcha.ready(function() {
 	grecaptcha.execute('6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6', {action: 'open'}).then(function(token) {
-		var formData = new FormData();
+		let formData = new FormData();
 		formData.append('g-recaptcha-response', token);
 		const params = new URLSearchParams([...formData]);
 		fetch("https://alexsab.ru/lead/re/", {
@@ -25,8 +25,7 @@ grecaptcha.ready(function() {
 			.then((res) => res.json())
 			.then((data) => {
 				console.log('Success:', data);
-				grecaptcha.res = date.response.success;
-				window.re = date.response.success;
+				window.re = data.data.response.success;
 			})
 			.catch((error) => {
 				console.error('Error:', error);
