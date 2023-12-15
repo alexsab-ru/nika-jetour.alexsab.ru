@@ -8,7 +8,7 @@ export const BRAND = 'Jetour';
 
 export const LINKS_MENU = [
 	{url: 'news/', name: 'Новости'},
-	{url: '#services', name: 'Услуги ДЦ'},
+	{url: '#services', name: 'Услуги'},
 	{url: '#contacts', name: 'Контакты'},
 ];
 
