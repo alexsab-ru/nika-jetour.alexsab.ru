@@ -24,7 +24,7 @@ grecaptcha.ready(function() {
 		})
 			.then((res) => res.json())
 			.then((data) => {
-				console.log('Success:', data);
+				// console.log('Success:', data);
 				window.re = data.data.response.success;
 			})
 			.catch((error) => {

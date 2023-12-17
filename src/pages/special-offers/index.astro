@@ -4,8 +4,9 @@ import { getCollection } from 'astro:content';
 import FormattedDate from '@/components/FormattedDate.astro';
 import { SITE_NAME } from '@/const';
 
-const rawPosts = await getCollection('news');
+const rawPosts = await getCollection('special-offers');
 
+console.log(rawPosts.length);
 let posts, image;
 // Проверяем, что массив rawPosts не пустой перед сортировкой
 if (rawPosts && rawPosts.length > 0) {
@@ -22,14 +23,14 @@ if (rawPosts && rawPosts.length > 0) {
 
 ---
 
-<PageLayout h1="Новости" title={`Новости | ${SITE_NAME}`} image={image ? image : ''}>
+<PageLayout h1="Спецпредложения" title={`Спецпредложения | ${SITE_NAME}`} image={image ? image : ''}>
 	{
 		posts ? (
 			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-5">
 				{
 					posts.map(post => (
 					<a 
-						href={'/news/'+post.slug}
+						href={'/special-offers/'+post.slug}
 						class="!no-underline"
 					>
 						<div class="bg-gray-50 group rounded-2xl relative aspect-video overflow-hidden">
@@ -42,7 +43,7 @@ if (rawPosts && rawPosts.length > 0) {
 				}
 			</div>
 		) : (
-			<p>Скоро здесь появятся новости {SITE_NAME}.</p>
+			<p>Скоро здесь появятся спецпредложения {SITE_NAME}.</p>
 		)
 	}
 </PageLayout>
