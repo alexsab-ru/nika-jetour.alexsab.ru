@@ -1,10 +1,12 @@
 [
     {
         "id": "dashing",
+        "show": true,
         "homeImg": "/img/models/dashing/bg.jpg",
         "slogan": "Городской кроссовер",
         "name": "Dashing",
         "price": "",
+        "profit": "",
         "thumb": "/img/models/dashing/color-change/c4b.png",
         "colors": [
             {
@@ -97,10 +99,12 @@
     },
     {
         "id": "x90plus",
+        "show": true,
         "homeImg": "/img/models/x90plus/bg.jpg",
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
         "price": "",
+        "profit": "",
         "thumb": "/img/models/x90plus/color-change/c4b.png",
         "colors": [
             {
@@ -181,10 +185,12 @@
     },
     {
         "id": "x70plus",
+        "show": true,
         "homeImg": "/img/models/x70plus/bg.jpg",
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
         "price": "",
+        "profit": "",
         "thumb": "/img/models/x70plus/color-change/c4b.png",
         "colors": [
             {
