@@ -6,16 +6,14 @@
         "slogan": "Городской кроссовер",
         "name": "Dashing",
         "price": "",
-        "profit": "",
-        "thumb": "/img/models/dashing/color-change/c4b.png",
-        "benefit": 750000,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Baic U5 Plus",
+                "data_form_name": "Выгодный трейд-ин. Dashing",
                 "view": "popup-link"
             },
             {
@@ -23,10 +21,11 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Baic U5 Plus",
+                "data_form_name": "Выгодный кредит. Dashing",
                 "view": "popup-link"
             }
         ],
+        "thumb": "/img/models/dashing/color-change/c4b.png",
         "colors": [
             {
                 "id": "c1b",
@@ -123,7 +122,25 @@
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
         "price": "",
-        "profit": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X90 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X90 Plus",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/x90plus/color-change/c4b.png",
         "colors": [
             {
@@ -209,7 +226,25 @@
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
         "price": "",
-        "profit": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X70 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X70 Plus",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/x70plus/color-change/c4b.png",
         "colors": [
             {
