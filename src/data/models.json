@@ -8,6 +8,25 @@
         "price": "",
         "profit": "",
         "thumb": "/img/models/dashing/color-change/c4b.png",
+        "benefit": 750000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Baic U5 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Baic U5 Plus",
+                "view": "popup-link"
+            }
+        ],
         "colors": [
             {
                 "id": "c1b",
