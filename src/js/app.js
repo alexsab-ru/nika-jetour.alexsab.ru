@@ -4,8 +4,7 @@ import './modules/modals';
 
 import { connectForms, cookiecook } from '@alexsab-ru/scripts';
 cookiecook();
-connectForms('https://alexsab.ru/lead/jetour/orenburg/', function() {
-});
+connectForms('https://alexsab.ru/lead/jetour/orenburg/');
 
 import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css';
