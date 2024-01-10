@@ -1,7 +1,10 @@
+export const BASE_URL = 'https://alexsab-ru.github.io/astro-json/'; // Название сайта по умолчанию
+export const SITE_URL = 'nika-jetour.ru'; // Название сайта по умолчанию
 export const SITE_NAME = 'Ника Авто'; // Название сайта по умолчанию
 export const LEGAL_ENTITY = 'ООО «Гермес-Авто»'; // Юр лицо
 export const LEGAL_INN = '5638061236'; // ИНН
 export const LEGAL_CITY = 'г. Оренбург'; // Город
+export const LEGAL_CITY_WHERE = 'Оренбурге'; // где? в Городе
 export const SITE_DESCR = 'Официальный дилерский центр'; // Описание сайта по умолчанию
 
 export const BRAND = 'Jetour';
