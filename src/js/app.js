@@ -13,7 +13,7 @@ const lightbox = GLightbox({
 });
 
 grecaptcha.ready(function() {
-	grecaptcha.execute('6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6', {action: 'nika-jetour.ru'}).then(function(token) {
+	grecaptcha.execute('6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6', {action: 'nika_jetour'}).then(function(token) {
 		let formData = new FormData();
 		formData.append('g-recaptcha-response', token);
 		const params = new URLSearchParams([...formData]);
