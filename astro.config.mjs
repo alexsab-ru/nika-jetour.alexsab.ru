@@ -33,6 +33,6 @@ export default defineConfig({
 	vite: {
 		plugins: [yaml()]
 	},
-	site: 'https://alexsab-ru.github.io',
-	base: "/nika-jetour.ru/"
+	site: 'https://nika-jetour.alexsab.ru',
+	base: "/"
 });
